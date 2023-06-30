@@ -8,7 +8,7 @@
 <body>
     <form action="server.php" method="POST">
         <input type="text" name="badword" placeholder="badword">
-        <textarea name="text" placeholder="Write a text"></textarea>
+        <textarea name="texts" placeholder="Write a text"></textarea>
         <button>Send</button>
     </form>
 </body>
