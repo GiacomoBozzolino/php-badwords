@@ -8,6 +8,12 @@
     $lunghezza= strlen($texts);
 
 
-    $concat= $texts." ".$lunghezza;
-    echo $concat
+    $concat= $texts." "." Lunghezza:".$lunghezza;
+    echo $concat."<br />";
+
+    $replaceWord = str_replace($badWord,'***',$texts);
+
+    $second_concat= $replaceWord." "." Lunghezza:".$lunghezza;
+
+    echo $second_concat
 ?>
